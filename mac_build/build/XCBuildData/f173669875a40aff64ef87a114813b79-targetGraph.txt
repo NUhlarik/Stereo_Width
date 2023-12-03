@@ -1,0 +1,51 @@
+Target dependency graph (13 targets)
+vstgui in StereoWidth_UNIVERSAL, no dependencies
+vstgui_uidescription in StereoWidth_UNIVERSAL, depends on:
+vstgui in StereoWidth_UNIVERSAL (explicit)
+vstgui_support in StereoWidth_UNIVERSAL, depends on:
+vstgui in StereoWidth_UNIVERSAL (explicit)
+vstgui_uidescription in StereoWidth_UNIVERSAL (explicit)
+pluginterfaces in StereoWidth_UNIVERSAL, no dependencies
+base in StereoWidth_UNIVERSAL, no dependencies
+sdk_common in StereoWidth_UNIVERSAL, depends on:
+pluginterfaces in StereoWidth_UNIVERSAL (explicit)
+base in StereoWidth_UNIVERSAL (explicit)
+sdk in StereoWidth_UNIVERSAL, depends on:
+pluginterfaces in StereoWidth_UNIVERSAL (explicit)
+base in StereoWidth_UNIVERSAL (explicit)
+sdk_common in StereoWidth_UNIVERSAL (explicit)
+sdk_hosting in StereoWidth_UNIVERSAL, depends on:
+pluginterfaces in StereoWidth_UNIVERSAL (explicit)
+base in StereoWidth_UNIVERSAL (explicit)
+sdk_common in StereoWidth_UNIVERSAL (explicit)
+validator in StereoWidth_UNIVERSAL, depends on:
+pluginterfaces in StereoWidth_UNIVERSAL (explicit)
+base in StereoWidth_UNIVERSAL (explicit)
+sdk_common in StereoWidth_UNIVERSAL (explicit)
+sdk_hosting in StereoWidth_UNIVERSAL (explicit)
+StereoWidth_VST in StereoWidth_UNIVERSAL, depends on:
+vstgui_support in StereoWidth_UNIVERSAL (explicit)
+pluginterfaces in StereoWidth_UNIVERSAL (explicit)
+base in StereoWidth_UNIVERSAL (explicit)
+sdk_common in StereoWidth_UNIVERSAL (explicit)
+sdk in StereoWidth_UNIVERSAL (explicit)
+vstgui in StereoWidth_UNIVERSAL (explicit)
+vstgui_uidescription in StereoWidth_UNIVERSAL (explicit)
+validator in StereoWidth_UNIVERSAL (explicit)
+uidesccompressor in StereoWidth_UNIVERSAL, depends on:
+vstgui in StereoWidth_UNIVERSAL (explicit)
+vstgui_uidescription in StereoWidth_UNIVERSAL (explicit)
+ZERO_CHECK in StereoWidth_UNIVERSAL, no dependencies
+ALL_BUILD in StereoWidth_UNIVERSAL, depends on:
+vstgui_support in StereoWidth_UNIVERSAL (explicit)
+pluginterfaces in StereoWidth_UNIVERSAL (explicit)
+base in StereoWidth_UNIVERSAL (explicit)
+sdk_common in StereoWidth_UNIVERSAL (explicit)
+sdk in StereoWidth_UNIVERSAL (explicit)
+sdk_hosting in StereoWidth_UNIVERSAL (explicit)
+StereoWidth_VST in StereoWidth_UNIVERSAL (explicit)
+vstgui in StereoWidth_UNIVERSAL (explicit)
+vstgui_uidescription in StereoWidth_UNIVERSAL (explicit)
+validator in StereoWidth_UNIVERSAL (explicit)
+uidesccompressor in StereoWidth_UNIVERSAL (explicit)
+ZERO_CHECK in StereoWidth_UNIVERSAL (explicit)

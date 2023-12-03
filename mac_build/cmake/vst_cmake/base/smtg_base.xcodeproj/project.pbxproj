@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		28A390D460874E92944315EE /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = DACFA494DEB5466A952E3381 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				DE5B39B79E3A4DE524335A59 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				814C3E7A28FC4AD1B0047BC8 /* PBXTargetDependency */,
+				B440D75F935F43A383D1FC63 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		413B1FD6208F4DD08B41658D /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8BDDB9A4E2344265A4B355E5 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				F27A8F6B63BB6D57729C5206 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		107550DFF47A425CAA5422E5 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fdynlib.cpp */ = {isa = PBXBuildFile; fileRef = 276C8CF437854F5DA99E6B5F /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fdynlib.cpp */; };
+		244DF156C9E64CE58C44D4CF /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/updatehandler.h */ = {isa = PBXBuildFile; fileRef = F7742BF91FB64A429AEBFFDE /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/updatehandler.h */; };
+		30E7AA1C670B407B8C921ED6 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/thread/source/flock.cpp */ = {isa = PBXBuildFile; fileRef = 6C4DC1A8222E4AEDB2708466 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/thread/source/flock.cpp */; };
+		313AD625F74C4B539627F0CD /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fcleanup.h */ = {isa = PBXBuildFile; fileRef = 3A5C118EBC354371ABB0FFE0 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fcleanup.h */; };
+		618292A60D564479A7FC61D0 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/timer.h */ = {isa = PBXBuildFile; fileRef = 822E7FE1A13A42CB84D119AC /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/timer.h */; };
+		707329A15B9844F9AC4EC495 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/classfactoryhelpers.h */ = {isa = PBXBuildFile; fileRef = 75A0DC413CE4439C9BE1DA4C /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/classfactoryhelpers.h */; };
+		82EBA56525FB46108B138B02 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/updatehandler.cpp */ = {isa = PBXBuildFile; fileRef = 78684217F33A416CAEF41355 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/updatehandler.cpp */; };
+		8A250F0F22F948638A30C5F5 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fstreamer.h */ = {isa = PBXBuildFile; fileRef = F50045813A49473FB0560744 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fstreamer.h */; };
+		8DCACD57B90642D29AB81E7F /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fstring.cpp */ = {isa = PBXBuildFile; fileRef = B2CD48EE276943219979F828 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fstring.cpp */; };
+		8F51FA10C44848D98BA4A339 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fstring.h */ = {isa = PBXBuildFile; fileRef = 3E619F6A79F64EAE88431C80 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fstring.h */; };
+		96AD52870B9C408BA43FF012 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fbuffer.h */ = {isa = PBXBuildFile; fileRef = 37B59985ADE94516AF82C031 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fbuffer.h */; };
+		9C1AA7404CE64F37804DE547 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fobject.cpp */ = {isa = PBXBuildFile; fileRef = 90BF6BB58D804BA6ADF5A579 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fobject.cpp */; };
+		9EA0D07146724878B2930C46 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fbuffer.cpp */ = {isa = PBXBuildFile; fileRef = 77CF46C293A747C7AD3BE267 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fbuffer.cpp */; };
+		A1CCED366CFC45CA8D91869C /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fdebug.cpp */ = {isa = PBXBuildFile; fileRef = 48E72D37E93346408BDEF5BF /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fdebug.cpp */; };
+		A2D9999CB13A4611BCF75DE9 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fdebug.h */ = {isa = PBXBuildFile; fileRef = 5E5AC57680574545ADE86BDF /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fdebug.h */; };
+		A760F83349F7491BB61252AD /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/timer.cpp */ = {isa = PBXBuildFile; fileRef = 091C123B9D4949F1A37D5F22 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/timer.cpp */; };
+		AB740DDCB534486E889EB3BA /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/thread/include/flock.h */ = {isa = PBXBuildFile; fileRef = 20EA704E5A9142A89C985DC5 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/thread/include/flock.h */; };
+		B1232BE2C7204F08847AC7F4 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 79C417FA7B15419FB4FC2ACF /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/CMakeLists.txt */; };
+		B7416EA0AB014F01ABADB50D /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/thread/source/fcondition.cpp */ = {isa = PBXBuildFile; fileRef = 6F4A393438614CE7947D3DF1 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/thread/source/fcondition.cpp */; };
+		D5528B6876A043648C0BFF08 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fdynlib.h */ = {isa = PBXBuildFile; fileRef = E83F8583424A4A338A3E9FB6 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fdynlib.h */; };
+		DC8C7D8A63BB47909B191012 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/baseiids.cpp */ = {isa = PBXBuildFile; fileRef = 12C81EA9AA1E4AF8923A6C73 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/baseiids.cpp */; };
+		DCCCE0C1135340FEAB69A524 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fobject.h */ = {isa = PBXBuildFile; fileRef = A459544760E5402BB3DB3681 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fobject.h */; };
+		E997DD0215B44D6C8DEEC52E /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/thread/include/fcondition.h */ = {isa = PBXBuildFile; fileRef = 6357696936984E678CA9837B /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/thread/include/fcondition.h */; };
+		EF08D15DF05F469385F3A43D /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fstreamer.cpp */ = {isa = PBXBuildFile; fileRef = BE628B1BBF694228AD7F6B00 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fstreamer.cpp */; };
+		F500D3FF9D89435186636FE3 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fcommandline.h */ = {isa = PBXBuildFile; fileRef = 61D93D14E35C40CAB8730812 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fcommandline.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		1C78B41EC5B2435BB428F428 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		D8750BD0FDD1422AB35F6662 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		1041CAC04F3F4DAAA3414037 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BE858AF719C410ABA35B0BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 413B1FD6208F4DD08B41658D;
+			remoteInfo = ZERO_CHECK;
+		};
+		71D4203F76A9429DB82FC5F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BE858AF719C410ABA35B0BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9C991E521DE4448A783F0BF;
+			remoteInfo = base;
+		};
+		B39FCD44F7FA4B4EB0C7F60C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BE858AF719C410ABA35B0BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 413B1FD6208F4DD08B41658D;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		091C123B9D4949F1A37D5F22 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/timer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = timer.cpp; path = source/timer.cpp; sourceTree = SOURCE_ROOT; };
+		12C81EA9AA1E4AF8923A6C73 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/baseiids.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = baseiids.cpp; path = source/baseiids.cpp; sourceTree = SOURCE_ROOT; };
+		20EA704E5A9142A89C985DC5 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/thread/include/flock.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = flock.h; path = thread/include/flock.h; sourceTree = SOURCE_ROOT; };
+		276C8CF437854F5DA99E6B5F /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fdynlib.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fdynlib.cpp; path = source/fdynlib.cpp; sourceTree = SOURCE_ROOT; };
+		37B59985ADE94516AF82C031 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fbuffer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fbuffer.h; path = source/fbuffer.h; sourceTree = SOURCE_ROOT; };
+		3A5C118EBC354371ABB0FFE0 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fcleanup.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fcleanup.h; path = source/fcleanup.h; sourceTree = SOURCE_ROOT; };
+		3E619F6A79F64EAE88431C80 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fstring.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fstring.h; path = source/fstring.h; sourceTree = SOURCE_ROOT; };
+		48E72D37E93346408BDEF5BF /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fdebug.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fdebug.cpp; path = source/fdebug.cpp; sourceTree = SOURCE_ROOT; };
+		5E5AC57680574545ADE86BDF /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fdebug.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fdebug.h; path = source/fdebug.h; sourceTree = SOURCE_ROOT; };
+		61D93D14E35C40CAB8730812 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fcommandline.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fcommandline.h; path = source/fcommandline.h; sourceTree = SOURCE_ROOT; };
+		6357696936984E678CA9837B /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/thread/include/fcondition.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fcondition.h; path = thread/include/fcondition.h; sourceTree = SOURCE_ROOT; };
+		6C4DC1A8222E4AEDB2708466 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/thread/source/flock.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = flock.cpp; path = thread/source/flock.cpp; sourceTree = SOURCE_ROOT; };
+		6F4A393438614CE7947D3DF1 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/thread/source/fcondition.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fcondition.cpp; path = thread/source/fcondition.cpp; sourceTree = SOURCE_ROOT; };
+		75A0DC413CE4439C9BE1DA4C /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/classfactoryhelpers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = classfactoryhelpers.h; path = source/classfactoryhelpers.h; sourceTree = SOURCE_ROOT; };
+		75EAA1FF5AD34005A068BDAF /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		77CF46C293A747C7AD3BE267 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fbuffer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fbuffer.cpp; path = source/fbuffer.cpp; sourceTree = SOURCE_ROOT; };
+		78684217F33A416CAEF41355 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/updatehandler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = updatehandler.cpp; path = source/updatehandler.cpp; sourceTree = SOURCE_ROOT; };
+		79C417FA7B15419FB4FC2ACF /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		822E7FE1A13A42CB84D119AC /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/timer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = timer.h; path = source/timer.h; sourceTree = SOURCE_ROOT; };
+		90BF6BB58D804BA6ADF5A579 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fobject.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fobject.cpp; path = source/fobject.cpp; sourceTree = SOURCE_ROOT; };
+		9FC00580D1584C30B2FB5F68 /* base */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libbase.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A459544760E5402BB3DB3681 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fobject.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fobject.h; path = source/fobject.h; sourceTree = SOURCE_ROOT; };
+		B2CD48EE276943219979F828 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fstring.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fstring.cpp; path = source/fstring.cpp; sourceTree = SOURCE_ROOT; };
+		BE628B1BBF694228AD7F6B00 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fstreamer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fstreamer.cpp; path = source/fstreamer.cpp; sourceTree = SOURCE_ROOT; };
+		E83F8583424A4A338A3E9FB6 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fdynlib.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fdynlib.h; path = source/fdynlib.h; sourceTree = SOURCE_ROOT; };
+		F50045813A49473FB0560744 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fstreamer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fstreamer.h; path = source/fstreamer.h; sourceTree = SOURCE_ROOT; };
+		F7742BF91FB64A429AEBFFDE /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/updatehandler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = updatehandler.h; path = source/updatehandler.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA59F791071A4D9582D5ABE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D1D361D84754445842C5EA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2BC3B18DC01341E7A9258E63 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				12C81EA9AA1E4AF8923A6C73 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/baseiids.cpp */,
+				77CF46C293A747C7AD3BE267 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fbuffer.cpp */,
+				48E72D37E93346408BDEF5BF /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fdebug.cpp */,
+				276C8CF437854F5DA99E6B5F /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fdynlib.cpp */,
+				90BF6BB58D804BA6ADF5A579 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fobject.cpp */,
+				BE628B1BBF694228AD7F6B00 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fstreamer.cpp */,
+				B2CD48EE276943219979F828 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fstring.cpp */,
+				091C123B9D4949F1A37D5F22 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/timer.cpp */,
+				78684217F33A416CAEF41355 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/updatehandler.cpp */,
+				6F4A393438614CE7947D3DF1 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/thread/source/fcondition.cpp */,
+				6C4DC1A8222E4AEDB2708466 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/thread/source/flock.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		3BC6351DB0AD4C4DB9A28453 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FC00580D1584C30B2FB5F68 /* base */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F182D8E998E49B8B1780930 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				FF73553AB6EC464E9F8497CB /* CMake Rules */,
+				75EAA1FF5AD34005A068BDAF /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		88D18923D3124072A6DA3243 = {
+			isa = PBXGroup;
+			children = (
+				A0B9484B5C0A49E9869C6943 /* Libraries */,
+				6F182D8E998E49B8B1780930 /* ALL_BUILD */,
+				3BC6351DB0AD4C4DB9A28453 /* Products */,
+				0D1D361D84754445842C5EA4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A0B9484B5C0A49E9869C6943 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				C4FBFB1CAFAD4B9CB1206D63 /* base */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		C4FBFB1CAFAD4B9CB1206D63 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				2BC3B18DC01341E7A9258E63 /* Source Files */,
+				E3C09C41FA1F48EAB7CA2073 /* Header Files */,
+				79C417FA7B15419FB4FC2ACF /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/CMakeLists.txt */,
+			);
+			name = base;
+			sourceTree = "<group>";
+		};
+		E3C09C41FA1F48EAB7CA2073 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				75A0DC413CE4439C9BE1DA4C /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/classfactoryhelpers.h */,
+				37B59985ADE94516AF82C031 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fbuffer.h */,
+				3A5C118EBC354371ABB0FFE0 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fcleanup.h */,
+				61D93D14E35C40CAB8730812 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fcommandline.h */,
+				5E5AC57680574545ADE86BDF /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fdebug.h */,
+				E83F8583424A4A338A3E9FB6 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fdynlib.h */,
+				A459544760E5402BB3DB3681 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fobject.h */,
+				F50045813A49473FB0560744 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fstreamer.h */,
+				3E619F6A79F64EAE88431C80 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fstring.h */,
+				822E7FE1A13A42CB84D119AC /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/timer.h */,
+				F7742BF91FB64A429AEBFFDE /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/updatehandler.h */,
+				6357696936984E678CA9837B /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/thread/include/fcondition.h */,
+				20EA704E5A9142A89C985DC5 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/thread/include/flock.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		FF73553AB6EC464E9F8497CB /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9C991E521DE4448A783F0BF /* base */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66B7E297FAB0458DB537E93D /* Build configuration list for PBXNativeTarget "base" */;
+			buildPhases = (
+				DECABFB104E64DE3A9A80E3E /* Sources */,
+				BA59F791071A4D9582D5ABE6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCC42DF14106433796F96903 /* PBXTargetDependency */,
+			);
+			name = base;
+			productName = base;
+			productReference = 9FC00580D1584C30B2FB5F68 /* base */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BE858AF719C410ABA35B0BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1420;
+			};
+			buildConfigurationList = FBFDA9D300F2402F885C6164 /* Build configuration list for PBXProject "smtg_base" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				D8750BD0FDD1422AB35F6662 /* Debug */,
+				1C78B41EC5B2435BB428F428 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 88D18923D3124072A6DA3243;
+			projectDirPath = "/Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base";
+			projectRoot = "";
+			targets = (
+				28A390D460874E92944315EE /* ALL_BUILD */,
+				413B1FD6208F4DD08B41658D /* ZERO_CHECK */,
+				A9C991E521DE4448A783F0BF /* base */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		DE5B39B79E3A4DE524335A59 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/myprojects/StereoWidth/mac_build/cmake/vst_cmake/base/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd \"/Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/myprojects/StereoWidth/mac_build/cmake/vst_cmake/base\"
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd \"/Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/myprojects/StereoWidth/mac_build/cmake/vst_cmake/base\"
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		F27A8F6B63BB6D57729C5206 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/myprojects/StereoWidth/mac_build/cmake/vst_cmake/base/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd \"/Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/myprojects/StereoWidth/mac_build/cmake/vst_cmake/base\"
+  make -f /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio\\ Software/MyPlugins/ALL_SDK/myprojects/StereoWidth/mac_build/cmake/vst_cmake/base/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd \"/Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/myprojects/StereoWidth/mac_build/cmake/vst_cmake/base\"
+  make -f /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio\\ Software/MyPlugins/ALL_SDK/myprojects/StereoWidth/mac_build/cmake/vst_cmake/base/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DECABFB104E64DE3A9A80E3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC8C7D8A63BB47909B191012 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/baseiids.cpp */,
+				9EA0D07146724878B2930C46 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fbuffer.cpp */,
+				A1CCED366CFC45CA8D91869C /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fdebug.cpp */,
+				107550DFF47A425CAA5422E5 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fdynlib.cpp */,
+				9C1AA7404CE64F37804DE547 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fobject.cpp */,
+				EF08D15DF05F469385F3A43D /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fstreamer.cpp */,
+				8DCACD57B90642D29AB81E7F /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/fstring.cpp */,
+				A760F83349F7491BB61252AD /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/timer.cpp */,
+				82EBA56525FB46108B138B02 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/source/updatehandler.cpp */,
+				B7416EA0AB014F01ABADB50D /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/thread/source/fcondition.cpp */,
+				30E7AA1C670B407B8C921ED6 /* /Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/thread/source/flock.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		814C3E7A28FC4AD1B0047BC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9C991E521DE4448A783F0BF /* base */;
+			targetProxy = 71D4203F76A9429DB82FC5F6 /* PBXContainerItemProxy */;
+		};
+		B440D75F935F43A383D1FC63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 413B1FD6208F4DD08B41658D /* ZERO_CHECK */;
+			targetProxy = 1041CAC04F3F4DAAA3414037 /* PBXContainerItemProxy */;
+		};
+		DCC42DF14106433796F96903 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 413B1FD6208F4DD08B41658D /* ZERO_CHECK */;
+			targetProxy = B39FCD44F7FA4B4EB0C7F60C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2475A3E030F64AA6ABF8297F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/myprojects/StereoWidth/mac_build/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk\"","\"/Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/..\"","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CPLUSPLUSFLAGS = "   -DDEVELOPMENT '-std=gnu++11' '-DSMTG_RENAME_ASSERT=1' '-DDEVELOPMENT=1' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = base;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/myprojects/StereoWidth/mac_build/build/base.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		8741E37C32074521984AAF14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		9CEE73DF10D446B0BC6AA5B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/myprojects/StereoWidth/mac_build/build";
+			};
+			name = Release;
+		};
+		A193EC26BEF2403E85ECB072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A4C875303FC149518818E6D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/myprojects/StereoWidth/mac_build/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk\"","\"/Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/VST_SDK/vst3sdk/base/..\"","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -DRELEASE '-std=gnu++11' '-DSMTG_RENAME_ASSERT=1' '-DRELEASE=1' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = base;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/myprojects/StereoWidth/mac_build/build/base.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		AA042377123E445E85044754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		C713B2C985A04B47976A271F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SYMROOT = "/Users/nicholasuhlarik/Library/CloudStorage/OneDrive-UniversityofDerby/Audio Software/MyPlugins/ALL_SDK/myprojects/StereoWidth/mac_build/build";
+			};
+			name = Debug;
+		};
+		CA8F583FDA1845B282472C80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66B7E297FAB0458DB537E93D /* Build configuration list for PBXNativeTarget "base" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2475A3E030F64AA6ABF8297F /* Debug */,
+				A4C875303FC149518818E6D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8BDDB9A4E2344265A4B355E5 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA8F583FDA1845B282472C80 /* Debug */,
+				AA042377123E445E85044754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DACFA494DEB5466A952E3381 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A193EC26BEF2403E85ECB072 /* Debug */,
+				8741E37C32074521984AAF14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FBFDA9D300F2402F885C6164 /* Build configuration list for PBXProject "smtg_base" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C713B2C985A04B47976A271F /* Debug */,
+				9CEE73DF10D446B0BC6AA5B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BE858AF719C410ABA35B0BD /* Project object */;
+}
